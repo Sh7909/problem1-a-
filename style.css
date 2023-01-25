@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    color:white;
+}
+img{
+    width:80px;
+}
+img:hover{
+    cursor:pointer;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+#logo{
+    display:flex;
+    margin:1rem;
+}
+#nav-items{
+    display:flex;                               /*1 rem=16px;*/
+    text-align: center;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:grey;
+}
+ul>li{
+    margin:2rem;
+}
+a:hover{
+    
+    color:white;
+}
+#profile{
+    display:flex;
+    max-width:2rem;
+    gap:1.5rem;
+    justify-content: space-around;
+    padding-right:4rem;
+    padding-top:1rem;
+    font-size:2rem;
+}
+
+
+#text{
+    font-size:40px;
+font-weight: bold;
+}
+#videos{
+    display:flex;
+    width:10%;
+    gap:2rem;
+    height:1rem;
+ }
+#symbol{
+    display:flex;
+    justify-content:end;
+}
+#next{
+    justify-content: space-around;
+}
+#align{
+    display:flex;
+    justify-content: space-around;
+}
+
+#quick{
+    font-weight: bold;
+    font-size:50px;
+    display:flex;
+    }
+#items{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+#click{
+    display:flex;
+    justify-content: space-between;
+    gap:2rem;
+}
+#content{
+    display:flex;
+   justify-content: space-around;
+ 
+
+}
+#sql{
+    display: flex;
+    justify-content: space-between;
+}
+#display{
+    display:inline-block;
+
+}
+#space{
+    gap:10rem;
+}
